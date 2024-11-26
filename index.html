@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A fun number guessing game where you have 3 tries to guess a number between 1 and 10.">
+    <meta name="keywords" content="number guessing game, fun games, simple web games">
+    <meta name="author" content="Your Name">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Number Guessing Game</h1>
+        <p id="instructions">Guess a number between 1 and 10. You have 3 tries!</p>
+        <input type="number" id="guess" placeholder="Enter your guess" min="1" max="10">
+        <button id="submit-guess">Submit Guess</button>
+        <button id="restart-game" class="hidden">Restart Game</button>
+        <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
